@@ -3,7 +3,7 @@ import { HomeIcon, MenuIcon } from '@heroicons/react/solid'
 import { signIn, signOut, useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { useRecoilState } from 'recoil';
-import { modalState } from '../../atoms/modalatom';
+import { modalState } from '../../atoms/modalAtom';
 
 const IconsGroup = () => {
 
