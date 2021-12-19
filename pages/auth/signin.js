@@ -26,7 +26,7 @@ const signIn = ({providers}) => {
 }
 
 //MiddleServer
-export async function getServerSideProps() {
+export async function getServerSideProps(context) {
   const providers = await getProviders();
   
   return {
