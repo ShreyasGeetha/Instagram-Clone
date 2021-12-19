@@ -40,7 +40,7 @@ const IconsGroup = () => {
       ) : (
           <div className="flex items-center ml-auto md:ml-0 justify-end space-x-4">  
             <HomeIcon onClick={showHomePage} className="hidden md:inline-flex navBtn " />
-            <button onClick={()=>router.push('/api/auth/signin')}>Sign In</button>
+            <button onClick={signIn}>Sign In</button>
           </div>
       )}
         
