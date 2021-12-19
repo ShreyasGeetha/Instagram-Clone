@@ -3,7 +3,8 @@ import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 
 //Runs on Browser
-const signIn = ({providers}) => {
+const signIn = ({ providers }) => {
+  console.log('do we come here',providers)
   return (
     <>
       <Header />
