@@ -7,13 +7,16 @@ export default NextAuth({
     GithubProvider({
       clientId: process.env.GITHUB_ID,
       clientSecret: process.env.GITHUB_SECRET,
-    }),
+    }),     
     //  GoogleProvider({
     //   clientId: process.env.GOOGLE_CLIENT_ID,
     //   clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     // }),
     // ...add more providers here
   ],
+  pages: {
+    signIn: "/auth/signin",    
+  },
   // Configure one or more authentication providers
   // providers: [
   //   Providers.GitHub({
