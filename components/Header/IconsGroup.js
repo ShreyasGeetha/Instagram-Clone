@@ -1,5 +1,5 @@
 import { HeartIcon, PaperAirplaneIcon, PlusCircleIcon, UserGroupIcon} from '@heroicons/react/outline'
-import { HomeIcon, MenuIcon } from '@heroicons/react/solid'
+import { HomeIcon } from '@heroicons/react/solid'
 import { signIn, signOut, useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { useRecoilState } from 'recoil';
